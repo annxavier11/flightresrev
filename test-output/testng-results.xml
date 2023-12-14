@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-14T12:23:32 IST" name="Default suite" finished-at="2023-12-14T12:23:50 IST" duration-ms="18110">
+    <groups>
+    </groups>
+    <test started-at="2023-12-14T12:23:32 IST" name="Default test" finished-at="2023-12-14T12:23:50 IST" duration-ms="18110">
+      <class name="test.Flightreservationtest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:32 IST" name="setup" finished-at="2023-12-14T12:23:35 IST" duration-ms="3429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userregistration()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:35 IST" name="userregistration" finished-at="2023-12-14T12:23:44 IST" duration-ms="8109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userregistration -->
+        <test-method signature="regconfirmation()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:44 IST" name="regconfirmation" finished-at="2023-12-14T12:23:44 IST" depends-on-methods="test.Flightreservationtest.userregistration" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regconfirmation -->
+        <test-method signature="flightsearch()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:44 IST" name="flightsearch" finished-at="2023-12-14T12:23:46 IST" depends-on-methods="test.Flightreservationtest.regconfirmation" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsearch -->
+        <test-method signature="flightselect()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:46 IST" name="flightselect" finished-at="2023-12-14T12:23:49 IST" depends-on-methods="test.Flightreservationtest.flightsearch" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightselect -->
+        <test-method signature="validation()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:49 IST" name="validation" finished-at="2023-12-14T12:23:50 IST" depends-on-methods="test.Flightreservationtest.flightselect" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Flightreservationtest@68b32e3e]" started-at="2023-12-14T12:23:50 IST" name="teardown" finished-at="2023-12-14T12:23:50 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.Flightreservationtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

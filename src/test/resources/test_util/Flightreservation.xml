@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="flight_reservation_test">
+	<test name="passenger_01">
+	<parameter name="numofpassengers" value="1" />	
+	<parameter name="expectedprice" value="$584 USD"/>	
+	<classes>
+	<class name="flighttest.Flightreservationtest" />	
+		
+	</classes>	
+		
+	</test>
+	<test name="passenger_02">
+	<parameter name="numofpassengers" value="2" />	
+	<parameter name="expectedprice" value="$1169 USD"/>	
+	<classes>
+	<class name="flighttest.Flightreservationtest" />	
+		
+	</classes>	
+		
+	</test>
+	<test name="passenger_03">
+	<parameter name="numofpassengers" value="3" />	
+	<parameter name="expectedprice" value="$1753 USD"/>	
+	<classes>
+	<class name="flighttest.Flightreservationtest" />	
+		
+	</classes>	
+		
+	</test>
+	<test name="passenger_04">
+	<parameter name="numofpassengers" value="4" />	
+	<parameter name="expectedprice" value="$2338 USD"/>
+	<classes>
+	<class name="flighttest.Flightreservationtest" />	
+		
+	</classes>	
+		
+	</test>
+	
+</suite>
